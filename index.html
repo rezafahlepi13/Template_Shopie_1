@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="Dashboard">
+  <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+  <title>Data Master - Shopie Paris Indonesia</title>
+  <!-- Favicons -->
+  <link href="img/favicon.ico" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  
+ 
+  <!-- Bootstrap core CSS -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link href="lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style-responsive.css" rel="stylesheet">
+
+</head>
+<body>
+  <section  id="container">
+    <header class="header black-bg">
+      <div class="sidebar-toggle-box">
+        <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+      </div>
+      <!--logo start-->
+      <a href="index.html" class="logo active">Shopie Paris</a>
+      <!--logo end-->
+      <div class="top-menu">
+        <ul class="nav pull-right top-menu">
+          <li><a class="logout" href="login.html">Logout</a></li>
+        </ul>
+      </div>
+    </header>
+    <aside>
+      <div id="sidebar" class="nav-collapse ">
+        <!-- sidebar menu start-->
+        <ul class="sidebar-menu" id="nav-accordion">
+          <p class="centered"><a href="profile.html"><img src="img/ui-sam.jpg" class="img-circle" width="80"></a></p>
+          <h5 class="centered">ADMIN</h5>
+          <li class="mt">
+            <a href="index.html">
+              <i class="fa fa-tachometer"></i>
+              <span>Dashboard</span>
+              </a>
+          </li>
+          <li class="sub-menu">
+            <a  href="#">
+              <i class="fa fa-book"></i>
+              <span>Extra Pages</span>
+              </a>
+            <ul class="sub">
+              <li><a href="blank.html">Blank Page</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="lock_screen.html">Lock Screen</a></li>
+              <li><a href="profile.html">Profile</a></li>
+              <li><a href="invoice.html">Invoice</a></li>
+              <li><a href="pricing_table.html">Pricing Table</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="404.html">404 Error</a></li>
+              <li><a href="500.html">500 Error</a></li>
+            </ul>
+          </li>
+          <li class="sub-menu">
+            <a href="#">
+              <i class="fa fa-tasks"></i>
+              <span>Forms</span>
+              </a>
+            <ul class="sub">
+              <li><a href="form_component.html">Form Components</a></li>
+              <li><a href="advanced_form_components.html">Advanced Components</a></li>
+              <li><a href="form_validation.html">Form Validation</a></li>
+              <li><a href="contactform.html">Contact Form</a></li>
+            </ul>
+          </li>
+          <li class="sub-menu">
+            <a href="#">
+              <i class="fa fa-th"></i>
+              <span>Data Tables</span>
+              </a>
+            <ul class="sub">
+              <li><a href="basic_table.html">Basic Table</a></li>
+              <li><a href="responsive_table.html">Responsive Table</a></li>
+              <li><a href="advanced_table.html">Advanced Table</a></li>
+            </ul>
+          </li>
+ 
+        </ul>
+        <!-- sidebar menu end-->
+      </div>
+    </aside>
+    <!--isi dalam conetent-->
+    <section id="main-content">
+        <section class="wrapper site-min-height">
+          <h2 class="centered">Table Data </h2>
+         <div class="row mb">
+           <div class="col-lg-12">
+              <form class="form-group pull-right">
+                  <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Search.."><br>
+                  <button type="submit" class="btn btn-default"><i class="fa fa-search"></i> Search</button> 
+              </form>
+              <div class="pull-left">
+              <form class="form-group ">
+                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                <button class="btn my-sm-0" type="submit">Upload</button>
+            </form>
+            <a href="form_component.html" class="btn btn-info pull-right">New</a>
+          </div>     
+           </div>
+         </div>
+          <div class="row mb">   
+            <div class="col-lg-12">                 
+              <div style="overflow-x:auto;"> 
+                <table class="table table-bordered" ">
+                    <thead class="thead">
+                      <tr>
+                        <th scope="col">Check</th>
+                        <th scope="col">Product Code</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Style</th>
+                        <th scope="col">Color</th>
+                        <th scope="col">Size</th>
+                        <th scope="col">Config</th>
+                        <th scope="col">Search Name</th>
+                        <th scope="col">Item Type</th>
+                        <th scope="col">TPG/NONTPG</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Price/Unit Group</th>
+                        <th scope="col">Category</th>
+                        <th scope="col">Handle</th>
+                        <th scope="col">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="uk-text-center uk-table-middle small_col"><input type="radio" data-md-icheck class="check_row"></td>
+                        <td>BAN PINGGANG 2x90</td>
+                        <td>012334567</td>
+                        <td>B5</td>
+                        <td>@mdo</td>
+                        <td>2cm</td>
+                        <td>i8cj0</td>
+                        <td>03_001</td>
+                        <td>item</td>
+                        <td>TPG</td>
+                        <td>sfds</td>
+                        <td>16.000.00</td>
+                        <td>dfdsf</td>
+                        <td>sfse</td>
+                        <td>
+                            <a href="form_component.html" class="btn btn-success">Edit</a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td class="uk-text-center uk-table-middle small_col"><input type="radio" data-md-icheck class="check_row"></td>
+                          <td>BAN PINGGANG 2x90</td>
+                          <td>012334567</td>
+                          <td>B5</td>
+                          <td>@mdo</td>
+                          <td>2cm</td>
+                          <td>i8cj0</td>
+                          <td>03_001</td>
+                          <td>item</td>
+                          <td>TPG</td>
+                          <td>sfds</td>
+                          <td>16.000.00</td>
+                          <td>dfdsf</td>
+                          <td>sfse</td>
+                          <td>
+                              <a href="form_component.html" class="btn btn-success">Edit</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                  </table>
+                </div> 
+            </div>
+            
+          </div>
+          <!-- /row -->
+        </section>
+        <!-- /wrapper -->
+      </section>
+    <!-- /MAIN CONTENT -->
+    <!--main content end-->
+    <!--footer start-->
+    <footer class="site-footer">
+      <div class="text-center">
+        <p>
+          &copy; Copyrights <strong>Sophie Paris</strong>. All Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <!--footer end-->
+  </section>
+  <!-- js placed at the end of the document so the pages load faster -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script class="include" type="text/javascript" src="lib/jquery.dcjqaccordion.2.7.js"></script>
+  <script src="lib/jquery.scrollTo.min.js"></script>
+  <script src="lib/jquery.nicescroll.js" type="text/javascript"></script>
+  <!--common script for all pages-->
+  <script src="lib/common-scripts.js"></script>
+  
+ 
+</body>
+</html>
